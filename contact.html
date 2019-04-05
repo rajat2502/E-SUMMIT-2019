@@ -82,7 +82,7 @@
 
 <!--HEADER-->
 <header>
-    <div id="lgx-header" class="lgx-header">
+    <div id="lgx-header" class="lgx-header" style="z-index:1000;">
         <div class="lgx-header-position lgx-header-position-white lgx-header-position-fixed "> <!--lgx-header-position-fixed lgx-header-position-white lgx-header-fixed-container lgx-header-fixed-container-gap lgx-header-position-white-->
             <div class="lgx-container"> <!--lgx-container-fluid-->
                 <nav class="navbar navbar-default lgx-navbar">
@@ -111,9 +111,9 @@
                             </li>
 
                             <li><a class="lgx-scroll" href="about.html">About</a></li>
-                            <li><a class="lgx-scroll" href="index.html#lgx-speakers">Past Speakers</a></li>
-                            <li><a class="lgx-scroll" href="index.html#lgx-schedule">Schedule</a></li>
-                            <li><a class="lgx-scroll" href="index.html#lgx-sponsors">Past Sponsors</a></li>
+                            <li><a class="lgx-scroll" href="#lgx-speakers">Past Speakers</a></li>
+                            <li><a class="lgx-scroll" href="#lgx-schedule">Schedule</a></li>
+                            <li><a class="lgx-scroll" href="#lgx-sponsors">Past Sponsors</a></li>
                             <li><a class="lgx-scroll" href="contact.html">Contact</a></li>
                         </ul>
                     </div><!--/.nav-collapse -->
@@ -232,9 +232,8 @@
                       </h4>
                       <address>
                         JSS Academy of Technical Education, <br>
-                        Noida
+                        Sector-62 , Noida .
                         </address>
-                        <a id="myModalLabel2" data-toggle="modal" data-target="#lgx-modal-map" class="map-link" href="#"><i class="fa fa-map-marker" aria-hidden="true"></i> View Map location</a>
                     </div>
                     <div class="lgx-footer-single">
                         <h3 class="footer-title">Social Connection</h3>
@@ -334,6 +333,27 @@
 <script src="switcher/js/switcherd41d.js?"></script>
 <!-- For Demo Purpose Only //Remove From Live-->
 
+<script type="text/javascript">
+/*=========================================================================
+ ===  MENU SCROLL FIXED
+ ========================================================================== */
+var s = $(".lgx-header-position");
+var pos = s.position();
+
+$(window).on('scroll', function () {
+    var windowpos = $(window).scrollTop();
+    if (windowpos >= pos.top) {
+        s.addClass("menu-onscroll");
+    } else {
+        s.removeClass("menu-onscroll");
+    }
+});
+
+/*=========================================================================
+ ===  MENU SCROLL FIXED END
+ ========================================================================== */
+
+</script>
 
 </body>
 

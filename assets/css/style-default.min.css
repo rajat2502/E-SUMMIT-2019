@@ -13306,6 +13306,6 @@ blockquote.lgx-testi-single:before {
   .thunderlogo{
     width:6rem !important;
     height: auto !important;
-    margin-top: 3px !important;
+    padding: 6px 0 !important;
   }
 }
