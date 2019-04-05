@@ -121,6 +121,11 @@ h6 {
   line-height: 1.8rem
 }
 
+#particle-canvas {
+  width: 100%;
+  height: 100%;
+}
+
 blockquote,
 blockquote p {
   font-family: Oswald, sans-serif;
