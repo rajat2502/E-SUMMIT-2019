@@ -13296,3 +13296,11 @@ blockquote.lgx-testi-single:before {
     height: 180px
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .thunderlogo{
+    width:6rem !important;
+    height: auto !important;
+    margin-top: 8px;
+  }
+}
