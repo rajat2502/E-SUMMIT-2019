@@ -9813,15 +9813,6 @@ button:hover:after {
   opacity: 1
 }
 
-.sponsors-area .single:hover a img {
-  -webkit-animation-name: fadeInUp;
-  animation-name: fadeInUp;
-  -webkit-transform-origin: center;
-  transform-origin: center;
-  animation-duration: .4s;
-  animation-timing-function: linear
-}
-
 .sponsors-area-col3 .single {
   width: 32%
 }
@@ -13328,6 +13319,13 @@ blockquote.lgx-testi-single:before {
 
 
 @media only screen and (max-width: 600px) {
+  .map{
+    width: 380px;
+  }
+
+  .removefromphone {
+    display: none;
+  }
   .thunderlogo{
     width:6rem !important;
     height: auto !important;
@@ -13508,6 +13506,7 @@ p.footer {
     float: none !important;
 }
 @media (max-width: 767px) {
+
     ul.timeline:before {
         left: 40px;
     }
