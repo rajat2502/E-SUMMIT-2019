@@ -30,6 +30,7 @@
         var pos = s.position();
 
         $(window).on('scroll', function () {
+          console.log('Scroll');
             var windowpos = $(window).scrollTop();
             if (windowpos >= pos.top) {
                 s.addClass("menu-onscroll");
