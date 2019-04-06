@@ -7,13 +7,37 @@ a:hover {
   outline: 0
 }
 
+@font-face {
+  font-family: 'Eurostile';
+  src: url('../fonts/Eurostile-Bol.otf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Eurostile';
+  src: url('../fonts/Eurostile-Bol.otf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Eurostile';
+  src: url('../fonts/Eurostile-Bla.otf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Eurostile';
+  src: url('../fonts/Eurostile-Bla.otf');
+  font-weight: 900;
+}
+
 html {
   font-size: 62.5%
 }
 
 body,
 p {
-  font-family: Poppins, sans-serif;
+  font-family: Eurostile, sans-serif;
   font-size: 1.6rem;
   padding: 0;
   margin: 0;
@@ -343,7 +367,7 @@ textarea.form-control {
 }
 
 .lgx-heading .heading {
-  font-family: Poppins, sans-serif;
+  font-family: Eurostile, sans-serif;
   font-size: 4.2rem;
   line-height: 6.300000000000001rem;
   color: #1b273d;
@@ -6435,7 +6459,7 @@ button:hover:after {
 }
 
 .lgx-header .lgx-navbar .lgx-nav .dropdown-menu li a {
-  font-family: Poppins, sans-serif;
+  font-family: Eurostile, sans-serif;
   color: #fff;
   padding: .6rem 1.5rem!important;
   font-size: 1.4rem;
@@ -7098,7 +7122,7 @@ button:hover:after {
 }
 
 .lgx-banner-info .subtitle {
-  font-family: Poppins, sans-serif;
+  font-family: Eurostile, sans-serif;
   font-size: 6.8rem;
   font-weight: 300;
   color: #efa506;
@@ -7119,7 +7143,7 @@ button:hover:after {
 
 .lgx-banner-info .date,
 .lgx-banner-info .location {
-  font-family: Poppins, sans-serif;
+  font-family: Eurostile, sans-serif;
   font-size: 2.6rem;
   line-height: 3.9000000000000004rem;
   font-weight: 300;
@@ -7160,7 +7184,7 @@ button:hover:after {
 
 .lgx-banner-info-circle .info-circle-inner .date span,
 .lgx-banner-info-date .date span {
-  font-family: Poppins, sans-serif;
+  font-family: Eurostile, sans-serif;
   font-weight: 700;
   text-transform: uppercase
 }
@@ -7307,7 +7331,7 @@ button:hover:after {
 }
 
 .lgx-banner-info-homeone .subtitle {
-  font-family: Poppins, sans-serif;
+  font-family: Eurostile, sans-serif;
   font-size: 6.8rem;
   font-weight: 300;
   color: #efa506;
@@ -8610,7 +8634,7 @@ button:hover:after {
 .lgx-single-speaker .speaker-info .subtitle,
 .lgx-single-speaker-circle .speaker-info .subtitle,
 .lgx-single-speaker2 .speaker-info .subtitle {
-  font-family: Poppins, sans-serif;
+  font-family: Eurostile, sans-serif;
   text-transform: uppercase
 }
 
@@ -8763,7 +8787,7 @@ button:hover:after {
 }
 
 .lgx-single-speaker figure figcaption {
-  background: rgba(85, 75, 185, .9);
+  background: rgba(36, 44, 67, .9);
   position: absolute;
   bottom: 0;
   left: 0;
@@ -9196,7 +9220,7 @@ button:hover:after {
 }
 
 .lgx-milestone .lgx-counter-area .counter-text small {
-  font-family: Poppins, sans-serif;
+  font-family: Eurostile, sans-serif;
   color: #fff;
   font-size: 2rem;
   line-height: 3rem;
@@ -9283,7 +9307,7 @@ button:hover:after {
 }
 
 .lgx-tab .lgx-nav-colorful li:nth-child(1) {
-  background: #6ba229
+  background: #ff8a00
 }
 
 .lgx-tab .lgx-nav-colorful li:nth-child(2) {
@@ -9299,7 +9323,7 @@ button:hover:after {
 }
 
 .lgx-tab .lgx-nav-colorful li:nth-child(5) {
-  background: #6ba229
+  background: #ff8a00
 }
 
 .lgx-tab .lgx-nav-colorful .active {
@@ -9585,7 +9609,7 @@ button:hover:after {
 }
 
 .lgx-panel .lgx-single-schedule .schedule-info .title {
-  font-family: Poppins, sans-serif;
+  font-family: Eurostile, sans-serif;
   font-size: 2.6rem;
   font-weight: 900;
   line-height: 3.4rem;
@@ -10375,7 +10399,7 @@ button:hover:after {
 }
 
 .lgx-registration-area .lgx-single-registration .single-top .price {
-  font-family: Poppins, sans-serif;
+  font-family: Eurostile, sans-serif;
   color: #efa506;
   font-size: 6.8rem;
   line-height: 10.2rem;
@@ -10384,7 +10408,7 @@ button:hover:after {
 }
 
 .lgx-registration-area .lgx-single-registration .single-top .price i {
-  font-family: Poppins, sans-serif;
+  font-family: Eurostile, sans-serif;
   font-size: 2.6rem;
   line-height: 3.9000000000000004rem;
   font-weight: 300;
@@ -10395,7 +10419,7 @@ button:hover:after {
 }
 
 .lgx-registration-area .lgx-single-registration .single-top .price span {
-  font-family: Poppins, sans-serif;
+  font-family: Eurostile, sans-serif;
   font-size: 2rem;
   line-height: 3rem;
   font-weight: 300;
@@ -10496,11 +10520,11 @@ button:hover:after {
 }
 
 .lgx-registration-area3 .lgx-single-registration:nth-child(4) {
-  background: #6ba229
+  background: #ff8a00
 }
 
 .lgx-registration-area3 .lgx-single-registration:nth-child(4) .single-top .title {
-  color: #6ba229
+  color: #ff8a00
 }
 
 .lgx-registration-area3 .lgx-single-registration .single-top {
@@ -10605,7 +10629,7 @@ button:hover:after {
 }
 
 .lgx-registration-area .lgx-single-registration-christmas .single-top .price span {
-  font-family: Poppins, sans-serif;
+  font-family: Eurostile, sans-serif;
   font-size: 2.6rem;
   line-height: 3.9000000000000004rem;
   font-weight: 300;
@@ -10854,7 +10878,7 @@ button:hover:after {
 }
 
 .lgx-inner-countdown .countdown-left-info .subtitle {
-  font-family: Poppins, sans-serif;
+  font-family: Eurostile, sans-serif;
   font-weight: 400;
   margin-bottom: 0
 }
@@ -10891,7 +10915,7 @@ button:hover:after {
 }
 
 #lgx-countdown i {
-  font-family: Poppins, sans-serif;
+  font-family: Eurostile, sans-serif;
   font-size: 2rem;
   line-height: 3rem;
   color: #fff;
@@ -10951,7 +10975,7 @@ button:hover:after {
 }
 
 .lgx-banner-info-circle #lgx-countdown i {
-  font-family: Poppins, sans-serif;
+  font-family: Eurostile, sans-serif;
   font-size: 1.4rem;
   line-height: 2.0999999999999996rem;
   color: #fff;
@@ -11032,7 +11056,7 @@ button:hover:after {
 }
 
 .lgx-countdown-area-squre #lgx-countdown i {
-  font-family: Poppins, sans-serif;
+  font-family: Eurostile, sans-serif;
   font-size: 2rem;
   line-height: 3rem;
   color: #fff;
@@ -11310,7 +11334,7 @@ blockquote.lgx-testi-single p {
   line-height: inherit;
   position: relative;
   z-index: 1;
-  font-family: Poppins, sans-serif
+  font-family: Eurostile, sans-serif
 }
 
 blockquote.lgx-testi-single span {
@@ -12488,7 +12512,7 @@ blockquote.lgx-testi-single:before {
 }
 
 .lgx-footer-single .opening-time-single span {
-  font-family: Poppins, sans-serif;
+  font-family: Eurostile, sans-serif;
   display: block
 }
 
@@ -12734,7 +12758,7 @@ blockquote.lgx-testi-single:before {
 }
 
 .lgx-post-wrapper .speaker-info .subtitle {
-  font-family: Poppins, sans-serif;
+  font-family: Eurostile, sans-serif;
   font-size: 1.6rem;
   line-height: 2.4000000000000004rem;
   font-weight: 400;
@@ -12754,7 +12778,7 @@ blockquote.lgx-testi-single:before {
 }
 
 .lgx-post-wrapper article header .subtitle {
-  font-family: Poppins, sans-serif;
+  font-family: Eurostile, sans-serif;
   color: #554bb9;
   font-size: 2.6rem;
   line-height: 3.9000000000000004rem;
@@ -12774,7 +12798,7 @@ blockquote.lgx-testi-single:before {
 }
 
 .lgx-post-wrapper article header .menu-price span {
-  font-family: Poppins, sans-serif;
+  font-family: Eurostile, sans-serif;
   color: #1b273d;
   font-weight: 300;
   font-size: 16px;
