@@ -130,9 +130,12 @@
 
 
 <!--BANNER-->
-<section style="height: 100vh;width: 100%;margin: 0;padding: 0;overflow: hidden; position:relative;">
-    <div id="particle-canvas"></div>
-    <img src="assets/img/logo.png" alt="Logo" style="position:absolute;top:40vh;">
+<section id="particle" style="height: 100vh;width: 100%;margin: 0;padding: 0;overflow: hidden; position:relative;">
+    <div id="particle-canvas" style="z-index: 1; position: relative;"></div>
+    <div class=""  style="z-index:2;position:absolute;top: 50px;display: flex;justify-content: center;align-items: center;">
+      <img src="assets/img/poster.png" alt="Logo" id="esummit" style="width:68%;">
+    </div>
+
 </section>
 <!--BANNER END-->
 

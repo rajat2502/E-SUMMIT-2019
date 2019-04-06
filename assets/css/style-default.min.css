@@ -13302,10 +13302,19 @@ blockquote.lgx-testi-single:before {
   }
 }
 
+
 @media only screen and (max-width: 600px) {
   .thunderlogo{
     width:6rem !important;
     height: auto !important;
     padding: 6px 0 !important;
+  }
+  #particle{
+    height:50vh !important;
+  }
+  #esummit{
+    top:25px !important;
+    width:110% !important;
+
   }
 }
