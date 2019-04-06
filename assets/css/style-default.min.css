@@ -9230,11 +9230,11 @@ button:hover:after {
 }
 
 .lgx-schedule {
-  background: #554bb9
+  background: #1e2943
 }
 
 .lgx-schedule .lgx-inner {
-  background: url(../img/schedule-bg-pattern.png) bottom center no-repeat;
+  /* background: url(../img/schedule-bg-pattern.png) bottom center no-repeat; */
   -webkit-background-size: 100% auto, cover;
   -o-background-size: 100% auto, cover;
   -moz-background-size: 100% auto, cover;
@@ -13339,6 +13339,13 @@ blockquote.lgx-testi-single:before {
   #esummit{
     top:25px !important;
     width:110% !important;
+
+  }
+  .lgx-about-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:auto;
 
   }
 }
