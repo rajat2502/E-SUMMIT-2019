@@ -13320,7 +13320,7 @@ blockquote.lgx-testi-single:before {
 
 @media only screen and (max-width: 720px) {
   .map{
-    width: 345px;
+    max-width: 100%;
   }
 
   .removefromphone {
@@ -13344,7 +13344,10 @@ blockquote.lgx-testi-single:before {
     justify-content: center;
     align-items: center;
     height:auto;
-
+    width: 100%;
+  }
+  .aboutlogo{
+    width: 50% !important;
   }
 }
 .access{
